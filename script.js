@@ -9,24 +9,24 @@
      • Vimeo        https://vimeo.com/ID
      • TikTok       https://www.tiktok.com/@user/video/ID
      • Canva        https://www.canva.com/design/ID/view      (design must be shared publicly)
-     • Your own MP4 file, e.g. "videos/belt-ad.mp4"
+     • Your own MP4 file, e.g. "Assets/videos/belt-ad.mp4"
    Leave "video" empty and the card shows a "coming soon" message.
    ========================================================== */
 
 const PROJECTS = [
   // Long-form (16:9)
-  { title: "YouTube talking-head edit",   type: "YouTube video",          format: "landscape", thumb: "assets/project-01.jpg", video: "" },
-  { title: "Church anniversary intro",    type: "Title sequence",         format: "landscape", thumb: "assets/project-02.jpg", video: "" },
+  { title: "YouTube talking-head edit",   type: "YouTube video",          format: "landscape", thumb: "Assets/project-01.jpg", video: "" },
+  { title: "Church anniversary intro",    type: "Title sequence",         format: "landscape", thumb: "Assets/project-02.jpg", video: "" },
 
   // Short-form (9:16)
-  { title: "“Want to make 2025…”",        type: "Motivational reel",      format: "portrait",  thumb: "assets/project-03.jpg", video: "" },
-  { title: "“Lives are set up”",          type: "Speaker highlight",      format: "portrait",  thumb: "assets/project-04.jpg", video: "" },
-  { title: "Everyday carry belt",         type: "E-commerce video ad",    format: "portrait",  thumb: "assets/project-05.jpg", video: "" },
-  { title: "“And we live”",               type: "Drone b-roll reel",      format: "portrait",  thumb: "assets/project-06.jpg", video: "" },
-  { title: "Harvest event recap",         type: "Event recap",            format: "portrait",  thumb: "assets/project-07.jpg", video: "" },
-  { title: "Youth service",               type: "Church reel",            format: "portrait",  thumb: "assets/project-08.jpg", video: "" },
-  { title: "Sunday worship moments",      type: "Church reel",            format: "portrait",  thumb: "assets/project-09.jpg", video: "" },
-  { title: "Youth celebration 02.15.26",  type: "Event promo",            format: "portrait",  thumb: "assets/project-10.jpg", video: "" },
+  { title: "“Want to make 2025…”",        type: "Motivational reel",      format: "portrait",  thumb: "Assets/project-03.jpg", video: "" },
+  { title: "“Lives are set up”",          type: "Speaker highlight",      format: "portrait",  thumb: "Assets/project-04.jpg", video: "" },
+  { title: "Everyday carry belt",         type: "E-commerce video ad",    format: "portrait",  thumb: "Assets/project-05.jpg", video: "" },
+  { title: "“And we live”",               type: "Drone b-roll reel",      format: "portrait",  thumb: "Assets/project-06.jpg", video: "" },
+  { title: "Harvest event recap",         type: "Event recap",            format: "portrait",  thumb: "Assets/project-07.jpg", video: "" },
+  { title: "Youth service",               type: "Church reel",            format: "portrait",  thumb: "Assets/project-08.jpg", video: "Assets/videos/israel.mp4" },
+  { title: "Sunday worship moments",      type: "Church reel",            format: "portrait",  thumb: "Assets/project-09.jpg", video: "" },
+  { title: "Youth celebration 02.15.26",  type: "Event promo",            format: "portrait",  thumb: "Assets/project-10.jpg", video: "" },
 ];
 
 const CONTACT_EMAIL = "israelruamar420@gmail.com";
